@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    transition: 200ms;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #666;
+}
+
+.home {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    background: url("https://enioaiello.github.io/background-library/assets/img/bg25.jpg") no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.functions {
+    width: 90%;
+    margin: 1% auto;
+}
+
+.soon {
+    width: 90%;
+    margin: 1% auto;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+footer p {
+    text-align: center;
+}
